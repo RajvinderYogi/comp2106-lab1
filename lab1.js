@@ -9,7 +9,7 @@ if (computerChoice < 0.34) {
 }
 console.log('User: ' + userChoice);
 console.log('Computer: ' + computerChoice);
-compare(userChoice, computerChoice)
+
 
 var compare = function(choice1, choice2) {
     if(choice1 === choice2) {
@@ -40,3 +40,4 @@ var compare = function(choice1, choice2) {
         }
     }
 };
+compare(userChoice, computerChoice)
